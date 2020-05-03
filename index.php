@@ -1,6 +1,5 @@
 <?php
-  echo "hello guys";
-  echo "hello guys";
+  $name = "leanhvu";
 ?>
 
 <!DOCTYPE html>
@@ -10,10 +9,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>my first PHP file</title>
+
+  <style>
+  body>h1 {
+    text-align: center;
+  }
+  </style>
 </head>
 
 <body>
-  <h1><?php echo "This is content inside PHP code"; ?></h1>
+  <h1>
+    My name is
+    <?php
+      echo $name;
+    ?>
+  </h1>
+
+
 </body>
 
 </html>
