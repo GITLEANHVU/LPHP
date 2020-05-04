@@ -27,13 +27,31 @@
   #multidimensional_array,
   #number,
   #array {
-    background-color: blue;
-    color: lightblue;
     width: 50%;
     text-align: center;
     font-size: 20px;
     display: inline-block;
     height: 400px;
+  }
+
+  #string {
+    background-color: blue;
+    color: lightblue;
+  }
+
+  #number {
+    background-color: green;
+    color: white;
+  }
+
+  #array {
+    background-color: yellowgreen;
+    color: black;
+  }
+
+  #multidimensional_array {
+    background-color: red;
+    color: white;
   }
   </style>
 </head>
