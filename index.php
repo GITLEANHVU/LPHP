@@ -23,39 +23,12 @@
     float: left;
   }
 
-  #string {
+  #string,
+  #multidimensional_array,
+  #number,
+  #array {
     background-color: blue;
     color: lightblue;
-    width: 50%;
-    text-align: center;
-    font-size: 20px;
-    display: inline-block;
-    height: 400px;
-  }
-
-  #number {
-    background-color: green;
-    color: white;
-    width: 50%;
-    text-align: center;
-    font-size: 20px;
-    display: inline-block;
-    height: 400px;
-  }
-
-  #array {
-    background-color: yellowgreen;
-    color: black;
-    width: 50%;
-    text-align: center;
-    font-size: 20px;
-    display: inline-block;
-    height: 400px;
-  }
-
-  #multidimensional_array {
-    background-color: red;
-    color: white;
     width: 50%;
     text-align: center;
     font-size: 20px;
